@@ -93,7 +93,7 @@ const Index = () => {
           <div className="flex items-center justify-between gap-6 flex-wrap">
             <div className="flex items-center gap-4">
               <img 
-                src="https://cdn.poehali.dev/projects/7d016b7b-2556-45b8-ac9d-697051e2b711/files/8d780bdb-1f9a-4e22-9017-4b4a788d9780.jpg" 
+                src="https://cdn.poehali.dev/files/2b05d8f7-199e-4664-8cd5-313c34de40a3.png" 
                 alt="КРИОС КАНИС логотип" 
                 className="w-16 h-16 object-contain"
               />
