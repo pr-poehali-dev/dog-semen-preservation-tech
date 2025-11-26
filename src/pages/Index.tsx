@@ -90,11 +90,33 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card sticky top-0 z-50">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center gap-3">
-            <Icon name="Microscope" className="text-primary" size={32} />
-            <div>
-              <h1 className="text-2xl font-bold text-foreground">Криоконсервация семени кобелей</h1>
-              <p className="text-sm text-muted-foreground">Научно обоснованная технология сохранения генетического материала</p>
+          <div className="flex items-center justify-between gap-6 flex-wrap">
+            <div className="flex items-center gap-4">
+              <img 
+                src="https://cdn.poehali.dev/projects/7d016b7b-2556-45b8-ac9d-697051e2b711/files/8d780bdb-1f9a-4e22-9017-4b4a788d9780.jpg" 
+                alt="КРИОС КАНИС логотип" 
+                className="w-16 h-16 object-contain"
+              />
+              <div>
+                <div className="text-lg font-bold text-foreground mb-1">ООО "КРИОС КАНИС"</div>
+                <h1 className="text-xl font-semibold text-foreground">Криоконсервация семени кобелей</h1>
+                <p className="text-xs text-muted-foreground">Научно обоснованная технология сохранения генетического материала</p>
+              </div>
+            </div>
+            
+            <div className="flex flex-col gap-1 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Icon name="Phone" size={16} className="text-primary" />
+                <a href="tel:+74951234567" className="hover:text-primary transition-colors">+7 (495) 123-45-67</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Icon name="Mail" size={16} className="text-primary" />
+                <a href="mailto:info@krioskanis.ru" className="hover:text-primary transition-colors">info@krioskanis.ru</a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Icon name="MapPin" size={16} className="text-primary" />
+                <span>Москва, ул. Ветеринарная, 10</span>
+              </div>
             </div>
           </div>
         </div>
