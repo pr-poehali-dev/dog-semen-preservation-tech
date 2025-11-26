@@ -172,15 +172,27 @@ const Index = () => {
                     ))}
                   </div>
                   {index === 1 && (
-                    <div className="mt-4">
-                      <img 
-                        src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
-                        alt="Исследование образца на камере Джофри"
-                        className="w-full max-w-xs mx-auto rounded-lg border border-border"
-                      />
-                      <p className="text-center text-xs text-muted-foreground mt-2">
-                        Исследование образца на камере Джофри
-                      </p>
+                    <div className="mt-4 grid md:grid-cols-2 gap-6">
+                      <div>
+                        <img 
+                          src="https://cdn.poehali.dev/files/237130fa-5985-4c0e-99f2-c1e7d254d991.png" 
+                          alt="Образец семени кобеля"
+                          className="w-full max-w-xs mx-auto rounded-lg border border-border object-contain"
+                        />
+                        <p className="text-center text-xs text-muted-foreground mt-2">
+                          Образец семени кобеля
+                        </p>
+                      </div>
+                      <div>
+                        <img 
+                          src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
+                          alt="Исследование образца на камере Джофри"
+                          className="w-full max-w-xs mx-auto rounded-lg border border-border object-cover aspect-square"
+                        />
+                        <p className="text-center text-xs text-muted-foreground mt-2">
+                          Исследование образца на камере Джофри
+                        </p>
+                      </div>
                     </div>
                   )}
                 </CardContent>
