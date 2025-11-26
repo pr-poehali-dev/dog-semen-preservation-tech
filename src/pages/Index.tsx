@@ -100,7 +100,7 @@ const Index = () => {
               <div>
                 <div className="text-lg font-bold text-foreground mb-1">ООО "КРИОС КАНИС"</div>
                 <h1 className="text-xl font-semibold text-foreground">Криоконсервация семени кобелей</h1>
-                <p className="text-xs text-muted-foreground">Научно обоснованная технология сохранения генетического материала</p>
+                <p className="text-xs text-muted-foreground">Технология сохранения генетического материала</p>
               </div>
             </div>
             
@@ -118,7 +118,7 @@ const Index = () => {
             <Badge className="mb-4" variant="outline">Ветеринарная репродуктология</Badge>
             <h2 className="text-4xl font-bold mb-4 text-foreground">Технология криоконсервации</h2>
             <p className="text-lg text-muted-foreground">
-              Криоконсервация семени — это научно обоснованный метод длительного хранения генетического материала 
+              Криоконсервация семени — это метод длительного хранения генетического материала 
               при сверхнизких температурах с сохранением биологической активности сперматозоидов
             </p>
           </div>
