@@ -164,13 +164,25 @@ const Index = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-4">
                     {step.details.map((detail, idx) => (
                       <Badge key={idx} variant="secondary" className="text-xs">
                         {detail}
                       </Badge>
                     ))}
                   </div>
+                  {index === 1 && (
+                    <div className="mt-4">
+                      <img 
+                        src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
+                        alt="Микроскопическое исследование сперматозоидов"
+                        className="w-full max-w-md mx-auto rounded-lg border border-border"
+                      />
+                      <p className="text-center text-xs text-muted-foreground mt-2">
+                        Микроскопическое исследование образца
+                      </p>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             ))}
