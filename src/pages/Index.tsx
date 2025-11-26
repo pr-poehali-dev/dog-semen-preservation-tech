@@ -172,7 +172,7 @@ const Index = () => {
                     ))}
                   </div>
                   {index === 1 && (
-                    <div className="mt-4 grid md:grid-cols-2 gap-6">
+                    <div className="mt-4 grid md:grid-cols-3 gap-6">
                       <div>
                         <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
                           <img 
@@ -195,6 +195,18 @@ const Index = () => {
                         </div>
                         <p className="text-center text-xs text-muted-foreground mt-2">
                           Исследование образца на камере Джофри
+                        </p>
+                      </div>
+                      <div>
+                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
+                          <img 
+                            src="https://cdn.poehali.dev/files/603e8692-200e-49cf-837f-166436f11624.png" 
+                            alt="Морфологическое исследование семени кобеля"
+                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
+                          />
+                        </div>
+                        <p className="text-center text-xs text-muted-foreground mt-2">
+                          Морфологическое исследование семени кобеля
                         </p>
                       </div>
                     </div>
