@@ -171,46 +171,6 @@ const Index = () => {
                       </Badge>
                     ))}
                   </div>
-                  {index === 1 && (
-                    <div className="mt-4 grid md:grid-cols-3 gap-6">
-                      <div>
-                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
-                          <img 
-                            src="https://cdn.poehali.dev/files/237130fa-5985-4c0e-99f2-c1e7d254d991.png" 
-                            alt="Образец семени кобеля"
-                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
-                          />
-                        </div>
-                        <p className="text-center text-xs text-muted-foreground mt-2">
-                          Образец семени кобеля
-                        </p>
-                      </div>
-                      <div>
-                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
-                          <img 
-                            src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
-                            alt="Исследование образца на камере Джофри"
-                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
-                          />
-                        </div>
-                        <p className="text-center text-xs text-muted-foreground mt-2">
-                          Исследование образца на камере Джофри
-                        </p>
-                      </div>
-                      <div>
-                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
-                          <img 
-                            src="https://cdn.poehali.dev/files/603e8692-200e-49cf-837f-166436f11624.png" 
-                            alt="Морфологическое исследование семени кобеля"
-                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
-                          />
-                        </div>
-                        <p className="text-center text-xs text-muted-foreground mt-2">
-                          Морфологическое исследование семени кобеля
-                        </p>
-                      </div>
-                    </div>
-                  )}
                 </CardContent>
               </Card>
             ))}
@@ -245,7 +205,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section>
+        <section className="mb-16">
           <Card className="bg-primary/5 border-primary/20">
             <CardHeader>
               <div className="flex items-start gap-4">
@@ -262,6 +222,63 @@ const Index = () => {
                 </div>
               </div>
             </CardHeader>
+          </Card>
+        </section>
+
+        <Separator className="my-16" />
+
+        <section>
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-foreground">Демонстрация работы</h2>
+            <p className="text-muted-foreground">
+              Фотографии процесса сбора и оценки качества семени кобеля
+            </p>
+          </div>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-center">Сбор и оценка семени</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <div className="w-full h-64 flex items-center justify-center bg-muted/30 rounded-lg">
+                    <img 
+                      src="https://cdn.poehali.dev/files/237130fa-5985-4c0e-99f2-c1e7d254d991.png" 
+                      alt="Образец семени кобеля"
+                      className="max-w-full max-h-full rounded-lg object-contain"
+                    />
+                  </div>
+                  <p className="text-center text-sm text-muted-foreground mt-3">
+                    Образец семени кобеля
+                  </p>
+                </div>
+                <div>
+                  <div className="w-full h-64 flex items-center justify-center bg-muted/30 rounded-lg">
+                    <img 
+                      src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
+                      alt="Исследование образца на камере Джофри"
+                      className="max-w-full max-h-full rounded-lg object-contain"
+                    />
+                  </div>
+                  <p className="text-center text-sm text-muted-foreground mt-3">
+                    Исследование образца на камере Джофри
+                  </p>
+                </div>
+                <div>
+                  <div className="w-full h-64 flex items-center justify-center bg-muted/30 rounded-lg">
+                    <img 
+                      src="https://cdn.poehali.dev/files/603e8692-200e-49cf-837f-166436f11624.png" 
+                      alt="Морфологическое исследование семени кобеля"
+                      className="max-w-full max-h-full rounded-lg object-contain"
+                    />
+                  </div>
+                  <p className="text-center text-sm text-muted-foreground mt-3">
+                    Морфологическое исследование семени кобеля
+                  </p>
+                </div>
+              </div>
+            </CardContent>
           </Card>
         </section>
       </main>
