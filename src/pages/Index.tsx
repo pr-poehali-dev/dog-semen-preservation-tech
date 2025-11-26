@@ -104,19 +104,9 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="flex flex-col gap-1 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Icon name="Phone" size={16} className="text-primary" />
-                <a href="tel:+74951234567" className="hover:text-primary transition-colors">+7 (495) 123-45-67</a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Icon name="Mail" size={16} className="text-primary" />
-                <a href="mailto:info@krioskanis.ru" className="hover:text-primary transition-colors">info@krioskanis.ru</a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Icon name="MapPin" size={16} className="text-primary" />
-                <span>Москва, ул. Ветеринарная, 10</span>
-              </div>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Icon name="Mail" size={16} className="text-primary" />
+              <a href="mailto:CriusCanis@yandex.ru" className="hover:text-primary transition-colors">CriusCanis@yandex.ru</a>
             </div>
           </div>
         </div>
