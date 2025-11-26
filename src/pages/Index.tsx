@@ -175,11 +175,11 @@ const Index = () => {
                     <div className="mt-4">
                       <img 
                         src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
-                        alt="Микроскопическое исследование сперматозоидов"
-                        className="w-full max-w-md mx-auto rounded-lg border border-border"
+                        alt="Исследование образца на камере Джофри"
+                        className="w-full max-w-xs mx-auto rounded-lg border border-border"
                       />
                       <p className="text-center text-xs text-muted-foreground mt-2">
-                        Микроскопическое исследование образца
+                        Исследование образца на камере Джофри
                       </p>
                     </div>
                   )}
