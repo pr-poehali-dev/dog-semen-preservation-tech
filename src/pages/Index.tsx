@@ -174,21 +174,25 @@ const Index = () => {
                   {index === 1 && (
                     <div className="mt-4 grid md:grid-cols-2 gap-6">
                       <div>
-                        <img 
-                          src="https://cdn.poehali.dev/files/237130fa-5985-4c0e-99f2-c1e7d254d991.png" 
-                          alt="Образец семени кобеля"
-                          className="w-full max-w-xs mx-auto rounded-lg border border-border object-contain"
-                        />
+                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
+                          <img 
+                            src="https://cdn.poehali.dev/files/237130fa-5985-4c0e-99f2-c1e7d254d991.png" 
+                            alt="Образец семени кобеля"
+                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
+                          />
+                        </div>
                         <p className="text-center text-xs text-muted-foreground mt-2">
                           Образец семени кобеля
                         </p>
                       </div>
                       <div>
-                        <img 
-                          src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
-                          alt="Исследование образца на камере Джофри"
-                          className="w-full max-w-xs mx-auto rounded-lg border border-border object-cover aspect-square"
-                        />
+                        <div className="w-full max-w-xs mx-auto h-64 flex items-center justify-center">
+                          <img 
+                            src="https://cdn.poehali.dev/files/f6dcfaa2-a57b-48b5-b25c-fad9a104d3a5.jpg" 
+                            alt="Исследование образца на камере Джофри"
+                            className="max-w-full max-h-full rounded-lg border border-border object-contain"
+                          />
+                        </div>
                         <p className="text-center text-xs text-muted-foreground mt-2">
                           Исследование образца на камере Джофри
                         </p>
